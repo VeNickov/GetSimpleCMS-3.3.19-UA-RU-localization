@@ -1,4 +1,4 @@
-### GetSimple CMS 3.3.19 COMMUNITY EDITION 
+### GetSimple CMS 3.3.19 COMMUNITY EDITION - UA and RU localization
 The official unofficial GS update repo. Helping to bridge the gap in PHP compatibility. 
 
 What has changed in this version of the Community Edition?
