@@ -1,4 +1,18 @@
 <?php
+
+/**
+ * Український переклад GetSimple CMS
+ *
+ * Date:		22 July 2023
+ * Revision:	July 2023
+ * Version:		GetSimple 3.3.19-CE
+ * Author:      VeNickov
+ * Traductors: 	GS Community
+ *
+ * @package GetSimple
+ * @subpackage Language
+ */
+
 $i18n = array(
     'PHPVER_ERROR' => "<b>Неможливо продовжувати:</b> потрібен PHP версії 5.1.3 або вище",
     'SIMPLEXML_ERROR' => "<b>Неможливо продовжувати:</b> <em>SimpleXML</em> не встановлено",
