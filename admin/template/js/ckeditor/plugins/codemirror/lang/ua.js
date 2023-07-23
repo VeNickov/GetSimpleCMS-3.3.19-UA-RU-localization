@@ -1,8 +1,8 @@
-﻿/*
+/*
 Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
-CKEDITOR.plugins.setLang( 'codemirror', 'uk', {
+CKEDITOR.plugins.setLang( 'codemirror', 'ua', {
     copyright: "Copyright CodeMirror © Marijn Haverbeke. All rights reserved.",
 	dlgTitle: 'About CodeMirror Source Plugin',
     moreInfoShortcuts: "Available Shortcuts",
