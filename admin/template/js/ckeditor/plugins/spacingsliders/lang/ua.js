@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang('spacingsliders', 'uk', {
+CKEDITOR.plugins.setLang('spacingsliders', 'ua', {
     title: 'Міжрядковий та міжлітерний інтервал',
     labels: {
         lineheight: 'Міжрядковий інтервал',
