@@ -1,4 +1,4 @@
-﻿/*
+/*
 Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.md or http://ckeditor.com/license
 */
@@ -26,7 +26,7 @@ CKEDITOR.lang['uk'] = {
 		"notSet": "<не визначено>",
 		"id": "Ідентифікатор",
 		"name": "Ім'я",
-		"langDir": "Напрямок мови",
+		"langDir": "Напрямок тексту",
 		"langDirLtr": "Зліва направо (LTR)",
 		"langDirRtl": "Справа наліво (RTL)",
 		"langCode": "Код мови",
@@ -40,11 +40,11 @@ CKEDITOR.lang['uk'] = {
 		"preview": "Попередній перегляд",
 		"resize": "Потягніть для зміни розмірів",
 		"generalTab": "Основне",
-		"advancedTab": "Додаткове",
+		"advancedTab": "Додатково",
 		"validateNumberFailed": "Значення не є цілим числом.",
 		"confirmNewPage": "Всі незбережені зміни будуть втрачені. Ви впевнені, що хочете завантажити нову сторінку?",
 		"confirmCancel": "Деякі опції змінено. Закрити вікно без збереження змін?",
-		"options": "Опції",
+		"options": "Параметри",
 		"target": "Ціль",
 		"targetNew": "Нове вікно (_blank)",
 		"targetTop": "Поточне вікно (_top)",
@@ -64,20 +64,20 @@ CKEDITOR.lang['uk'] = {
 		"alignTop": "По верхньому краю",
 		"alignMiddle": "По середині",
 		"alignBottom": "По нижньому краю",
-		"alignNone": "Нема",
-		"invalidValue": "Невірне значення.",
-		"invalidHeight": "Висота повинна бути цілим числом.",
-		"invalidWidth": "Ширина повинна бути цілим числом.",
-		"invalidCssLength": "Значення, вказане для \"%1\" в полі повинно бути позитивним числом або без дійсного виміру CSS блоку (px, %, in, cm, mm, em, ex, pt або pc).",
-		"invalidHtmlLength": "Значення, вказане для \"%1\" в полі повинно бути позитивним числом або без дійсного виміру HTML блоку (px або %).",
-		"invalidInlineStyle": "Значення, вказане для вбудованого стилю повинне складатися з одного чи кількох кортежів у форматі \"ім'я : значення\", розділених крапкою з комою.",
-		"cssLengthTooltip": "Введіть номер значення в пікселях або число з дійсною одиниці CSS (px, %, in, cm, mm, em, ex, pt або pc).",
-		"unavailable": "%1<span class=\"cke_accessibility\">, не доступне</span>"
+		"alignNone": "Немає",
+		"invalidValue": "Недопустиме значення.",
+		"invalidHeight": "Висота визначається цілим числом.",
+		"invalidWidth": "Ширина визначається цілим числом.",
+		"invalidCssLength": "Значення, вказане в полі \"%1\" повинно бути позитивним числом. Допускається вказувати одиниці CSS (px, %, in, cm, mm, em, ex, pt або pc).",
+		"invalidHtmlLength": "Значення, вказане в полі \"%1\" повинно бути позитивним числом. Допускається вказувати одиниці HTML (px або %).",
+		"invalidInlineStyle": "Значення, вказане для елеиенту стилю повинне складатися з одного чи кількох пар даних у форматі \"ім'я : значення\", розділених крапкою з комою.",
+		"cssLengthTooltip": "Введіть значення в пікселях або число з дійсною одиницьою CSS (px, %, in, cm, mm, em, ex, pt або pc).",
+		"unavailable": "%1<span class=\"cke_accessibility\">, не доступно</span>"
 	},
 	"about": {
 		"copy": "Copyright &copy; $1. Всі права застережено.",
 		"dlgTitle": "Про CKEditor",
-		"help": "Перевірте $1 для допомоги.",
+		"help": "$1 містить докладну довідку по використанню.",
 		"moreInfo": "Щодо інформації з ліцензування завітайте на наш сайт:",
 		"title": "Про CKEditor",
 		"userGuide": "Інструкція Користувача для CKEditor"
@@ -91,8 +91,8 @@ CKEDITOR.lang['uk'] = {
 		"underline": "Підкреслений"
 	},
 	"bidi": {
-		"ltr": "Написання тексту зліва направо",
-		"rtl": "Написання тексту зправа наліво"
+		"ltr": "Напрямок тексту зліва направо",
+		"rtl": "Напрямок тексту зправа наліво"
 	},
 	"blockquote": {
 		"toolbar": "Цитата"
@@ -171,15 +171,15 @@ CKEDITOR.lang['uk'] = {
 		"options": "Налаштування контекстного меню"
 	},
 	"div": {
-		"IdInputLabel": "Id",
-		"advisoryTitleInputLabel": "Дорадчий заголовок",
-		"cssClassInputLabel": "Класи таблиці стилів",
-		"edit": "Редагувати Div",
+		"IdInputLabel": "Ідентифікатор",
+		"advisoryTitleInputLabel": "Заголовок",
+		"cssClassInputLabel": "Класи CSS",
+		"edit": "Редагувати контейнер Div",
 		"inlineStyleInputLabel": "Вбудований стиль",
 		"langDirLTRLabel": "Зліва направо (LTR)",
 		"langDirLabel": "Напрямок написання тексту",
 		"langDirRTLLabel": "Зправа наліво (RTL)",
-		"languageCodeInputLabel": " Код мови",
+		"languageCodeInputLabel": "Код мови",
 		"remove": "Видалити Div",
 		"styleSelectLabel": "Стиль",
 		"title": "Створити контейнер Div",
@@ -190,11 +190,11 @@ CKEDITOR.lang['uk'] = {
 		"eleTitle": "%1 елемент"
 	},
 	"find": {
-		"find": "Пошук",
+		"find": "Знайти",
 		"findOptions": "Налаштування пошуку",
-		"findWhat": "Що знайти:",
-		"matchCase": "Відповідність регістру",
-		"matchCyclic": "Відповідність циклу",
+		"findWhat": "Знайти:",
+		"matchCase": "Враховувати регістру",
+		"matchCyclic": "По всьому тексту",
 		"matchWord": "Відповідність цілого слова",
 		"notFoundMsg": "Зазначений текст не знайдено.",
 		"replace": "Замінити",
@@ -214,36 +214,36 @@ CKEDITOR.lang['uk'] = {
 		"access": "Скрипт доступу",
 		"accessAlways": "Завжди",
 		"accessNever": "Ніколи",
-		"accessSameDomain": "Той же домен",
-		"alignAbsBottom": "Abs знизу",
-		"alignAbsMiddle": "Abs посередині",
-		"alignBaseline": "Основна лінія",
-		"alignTextTop": "Текст зверху",
+		"accessSameDomain": "У тому ж домені",
+		"alignAbsBottom": "Понизу текста",
+		"alignAbsMiddle": "Носередині текста",
+		"alignBaseline": "По базовій лінії",
+		"alignTextTop": "Поверху текста",
 		"bgcolor": "Колір фона",
 		"chkFull": "Дозволити повноекранний режим",
-		"chkLoop": "Loop",
+		"chkLoop": "Повторювати",
 		"chkMenu": "Активувати Flash меню",
 		"chkPlay": "Автоматичне відтворення",
 		"flashvars": "Змінні для Flash",
-		"hSpace": "HSpace",
+		"hSpace": "Гориз. відступ",
 		"properties": "Властивості Flash",
 		"propertiesTab": "Властивості",
 		"quality": "Якість",
 		"qualityAutoHigh": "Автоматично гучно",
 		"qualityAutoLow": "Автоматично тихо",
 		"qualityBest": "Найкраще",
-		"qualityHigh": "Гучно",
-		"qualityLow": "Низько",
-		"qualityMedium": "Середньо",
-		"scale": "Шкала",
-		"scaleAll": "Поаказати все",
-		"scaleFit": "Точне підлаштування",
-		"scaleNoBorder": "Без рамки",
+		"qualityHigh": "Висока",
+		"qualityLow": "Низька",
+		"qualityMedium": "Середнья",
+		"scale": "Маштабувати",
+		"scaleAll": "Пропорційно",
+		"scaleFit": "Заповнити",
+		"scaleNoBorder": "Поза рамки",
 		"title": "Властивості Flash",
-		"vSpace": "VSpace",
-		"validateHSpace": "HSpace має бути цифрою.",
+		"vSpace": "Верт. відступ",
+		"validateHSpace": "Горизонтальний відступ задається числом.",
 		"validateSrc": "URL не має бути пустим.",
-		"validateVSpace": "VSpace має бути цифрою.",
+		"validateVSpace": "Вертикальний відступ задається числом.",
 		"windowMode": "Віконний режим",
 		"windowModeOpaque": "Непрозорий",
 		"windowModeTransparent": "Прозорий",
@@ -275,7 +275,7 @@ CKEDITOR.lang['uk'] = {
 	},
 	"forms": {
 		"button": {
-			"title": "Властивості Кнопки",
+			"title": "Властивості кнопки",
 			"text": "Текст Text (Значення)",
 			"type": "Тип",
 			"typeBtn": "Кнопка",
@@ -284,10 +284,10 @@ CKEDITOR.lang['uk'] = {
 		},
 		"checkboxAndRadio": {
 			"checkboxTitle": "Властивості Checkbox",
-			"radioTitle": "Властивості кнопки Radio",
+			"radioTitle": "Властивості кнопки вибору",
 			"value": "Значення",
 			"selected": "Обрано",
-			"required": "Обов'язково"
+			"required": "Обов'язкове поле"
 		},
 		"form": {
 			"title": "Властивості форми",
@@ -302,35 +302,35 @@ CKEDITOR.lang['uk'] = {
 			"value": "Значення"
 		},
 		"select": {
-			"title": "Вибор властивостей поля",
-			"selectInfo": "Вибор інформації",
-			"opAvail": "Доступні налаштування",
+			"title": "Властивості списка вибору",
+			"selectInfo": "Інформація про список вибору",
+			"opAvail": "Доступні варіанти",
 			"value": "Значення",
 			"size": "Розмір",
-			"lines": "лінії",
-			"chkMulti": "Дозволити кілька варіантів вибору",
-			"required": "Обов'язково",
+			"lines": "ліній",
+			"chkMulti": "Дозволити вибор декількох варіантів",
+			"required": "Обов'язкове поле",
 			"opText": "Текст",
 			"opValue": "Значення",
 			"btnAdd": "Додати",
 			"btnModify": "Змінити",
-			"btnUp": "Вгору",
-			"btnDown": "Вниз",
+			"btnUp": "Підняти",
+			"btnDown": "Опустити",
 			"btnSetValue": "Встановити як обране значення",
 			"btnDelete": "Видалити"
 		},
 		"textarea": {
-			"title": "Властивості Textarea",
-			"cols": "Колонки",
-			"rows": "Строчки"
+			"title": "Властивості текстового поля",
+			"cols": "Колонок",
+			"rows": "Строчок"
 		},
 		"textfield": {
 			"title": "Властивості текстового поля",
 			"name": "Назва",
 			"value": "Значення",
-			"charWidth": "Ширина символів",
-			"maxChars": "Максимум символів",
-			"required": "Обов'язково",
+			"charWidth": "Ширина поля (в символах)",
+			"maxChars": "Макс. кількість символів",
+			"required": "Обов'язкове поле",
 			"type": "Тип",
 			"typeText": "Текст",
 			"typePass": "Пароль",
@@ -341,7 +341,7 @@ CKEDITOR.lang['uk'] = {
 		}
 	},
 	"horizontalrule": {
-		"toolbar": "Горизонтальна лінія"
+		"toolbar": "Вставити горизонтальну лінію"
 	},
 	"iframe": {
 		"border": "Показати рамку фрейму",
@@ -359,75 +359,75 @@ CKEDITOR.lang['uk'] = {
 		"img2Button": "Бажаєте перетворити обране зображення на кнопку-зображення?",
 		"infoTab": "Інформація про зображення",
 		"linkTab": "Посилання",
-		"lockRatio": "Зберегти пропорції",
+		"lockRatio": "Зберігати пропорції",
 		"menu": "Властивості зображення",
-		"resetSize": "Очистити поля розмірів",
+		"resetSize": "Повернути звичайні розміри",
 		"title": "Властивості зображення",
-		"titleButton": "Властивості кнопки із зображенням",
-		"upload": "Надіслати",
+		"titleButton": "Властивості кнопки-зображення",
+		"upload": "Завантажиити",
 		"urlMissing": "Вкажіть URL зображення.",
-		"vSpace": "Верт. відступ",
-		"validateBorder": "Ширина рамки повинна бути цілим числом.",
-		"validateHSpace": "Гориз. відступ повинен бути цілим числом.",
-		"validateVSpace": "Верт. відступ повинен бути цілим числом."
+		"vSpace": "Вертик. відступ",
+		"validateBorder": "Ширина рамки повинна бути задана числом.",
+		"validateHSpace": "Гориз. відступ повинен бути задана числом.",
+		"validateVSpace": "Верт. відступ повинен бути задана числом."
 	},
 	"indent": {
 		"indent": "Збільшити відступ",
 		"outdent": "Зменшити відступ"
 	},
 	"justify": {
-		"block": "Пристосувати",
-		"center": "Поцентру",
-		"left": "Вирівняти ліворуч",
-		"right": "Вирівняти праворуч"
+		"block": "По ширині",
+		"center": "По центру",
+		"left": "По лівому краю",
+		"right": "По правому краю"
 	},
 	"language": {
-		"button": "Встановти мову",
+		"button": "Встановити мову",
 		"remove": "Видалити мову"
 	},
 	"link": {
-		"acccessKey": "Гаряча клавіша",
-		"advanced": "Додаткове",
+		"acccessKey": "Клавіша доступу",
+		"advanced": "Додатково",
 		"advisoryContentType": "Тип вмісту",
 		"advisoryTitle": "Заголовок",
 		"anchor": {
 			"toolbar": "Вставити/Редагувати якір",
-			"menu": "Властивості якоря",
+			"menu": "Змінити якір",
 			"title": "Властивості якоря",
 			"name": "Ім'я якоря",
 			"errorName": "Будь ласка, вкажіть ім'я якоря",
-			"remove": "Прибрати якір"
+			"remove": "Видалити якір"
 		},
-		"anchorId": "За ідентифікатором елементу",
-		"anchorName": "За ім'ям елементу",
+		"anchorId": "За ідентифікатором",
+		"anchorName": "За ім'ям",
 		"charset": "Кодування",
 		"cssClasses": "Клас CSS",
 		"emailAddress": "Адреса ел. пошти",
-		"emailBody": "Тіло повідомлення",
+		"emailBody": "Текст повідомлення",
 		"emailSubject": "Тема листа",
 		"id": "Ідентифікатор",
-		"info": "Інформація посилання",
+		"info": "Інформація про посилання",
 		"langCode": "Код мови",
-		"langDir": "Напрямок мови",
+		"langDir": "Напрямок тексту",
 		"langDirLTR": "Зліва направо (LTR)",
 		"langDirRTL": "Справа наліво (RTL)",
-		"menu": "Вставити посилання",
+		"menu": "Редагувати посилання",
 		"name": "Ім'я",
 		"noAnchors": "(В цьому документі немає якорів)",
 		"noEmail": "Будь ласка, вкажіть адрес ел. пошти",
 		"noUrl": "Будь ласка, вкажіть URL посилання",
 		"other": "<інший>",
-		"popupDependent": "Залежний (Netscape)",
+		"popupDependent": "Залежне (Netscape)",
 		"popupFeatures": "Властивості випливаючого вікна",
 		"popupFullScreen": "Повний екран (IE)",
-		"popupLeft": "Позиція зліва",
+		"popupLeft": "Відступ зліва",
 		"popupLocationBar": "Панель локації",
 		"popupMenuBar": "Панель меню",
 		"popupResizable": "Масштабоване",
-		"popupScrollBars": "Стрічки прокрутки",
+		"popupScrollBars": "Строчки прокрутки",
 		"popupStatusBar": "Рядок статусу",
 		"popupToolbar": "Панель інструментів",
-		"popupTop": "Позиція зверху",
+		"popupTop": "Відступ зверху",
 		"rel": "Зв'язок",
 		"selectAnchor": "Оберіть якір",
 		"styles": "Стиль CSS",
@@ -438,52 +438,52 @@ CKEDITOR.lang['uk'] = {
 		"targetPopup": "<випливаюче вікно>",
 		"targetPopupName": "Ім'я випливаючого вікна",
 		"title": "Посилання",
-		"toAnchor": "Якір на цю сторінку",
+		"toAnchor": "Посилання на якірв тексті",
 		"toEmail": "Ел. пошта",
 		"toUrl": "URL",
 		"toolbar": "Вставити/Редагувати посилання",
 		"type": "Тип посилання",
 		"unlink": "Видалити посилання",
-		"upload": "Надіслати"
+		"upload": "Завантаження"
 	},
 	"list": {
-		"bulletedlist": "Маркірований список",
+		"bulletedlist": "Маркований список",
 		"numberedlist": "Нумерований список"
 	},
 	"liststyle": {
-		"armenian": "Armenian numbering",
-		"bulletedTitle": "Bulleted List Properties",
-		"circle": "Circle",
-		"decimal": "Decimal (1, 2, 3, etc.)",
-		"decimalLeadingZero": "Decimal leading zero (01, 02, 03, etc.)",
-		"disc": "Disc",
-		"georgian": "Georgian numbering (an, ban, gan, etc.)",
-		"lowerAlpha": "Lower Alpha (a, b, c, d, e, etc.)",
-		"lowerGreek": "Lower Greek (alpha, beta, gamma, etc.)",
-		"lowerRoman": "Lower Roman (i, ii, iii, iv, v, etc.)",
-		"none": "None",
-		"notset": "<not set>",
-		"numberedTitle": "Numbered List Properties",
-		"square": "Square",
-		"start": "Start",
-		"type": "Type",
-		"upperAlpha": "Upper Alpha (A, B, C, D, E, etc.)",
-		"upperRoman": "Upper Roman (I, II, III, IV, V, etc.)",
-		"validateStartNumber": "List start number must be a whole number."
+		"armenian": "Армянська нумерація",
+		"bulletedTitle": "Властивості маркованого списку",
+		"circle": "Круг",
+		"decimal": "Десятичні (1, 2, 3, і т.д.)",
+		"decimalLeadingZero": "Десятичні з відомим нульом (01, 02, 03, etc.)",
+		"disc": "Диск",
+		"georgian": "Грузинська нумерація (ані, бані, гани, і т.д.)",
+		"lowerAlpha": "Строчні латинські (a, b, c, d, e, і т.д.)",
+		"lowerGreek": "Строчні романські (alpha, beta, gamma, і т.д.)",
+		"lowerRoman": "Строчні римські (i, ii, iii, iv, v, і т.д.)",
+		"none": "Ні",
+		"notset": "<не вказано>",
+		"numberedTitle": "Властивості нумерованого списку",
+		"square": "Квадрат",
+		"start": "Починаючи з",
+		"type": "Тип",
+		"upperAlpha": "Заглавні латинські (A, B, C, D, E, і т.д.)",
+		"upperRoman": "Заглавні римські (I, II, III, IV, V, і т.д.)",
+		"validateStartNumber": "Перший номер списка повинен бути заданий цілим числом."
 	},
 	"magicline": {
-		"title": "Вставити абзац"
+		"title": "Вставити параграф"
 	},
 	"maximize": {
-		"maximize": "Максимізувати",
-		"minimize": "Мінімізувати"
+		"maximize": "Розвернути",
+		"minimize": "Звернути"
 	},
 	"newpage": {
 		"toolbar": "Нова сторінка"
 	},
 	"pagebreak": {
 		"alt": "Розрив сторінки",
-		"toolbar": "Вставити Розрив сторінки для друку"
+		"toolbar": "Вставити розрив сторінки для друку"
 	},
 	"pastefromword": {
 		"confirmCleanup": "Текст, який ви хочете вставити, схоже, скопійовано з Word. Ви хочете очистити його перед вставкою?",
@@ -496,7 +496,7 @@ CKEDITOR.lang['uk'] = {
 		"title": "Вставити тільки текст"
 	},
 	"preview": {
-		"preview": "Перегляд"
+		"preview": "Попередній перегляд"
 	},
 	"print": {
 		"toolbar": "Друк"
@@ -510,37 +510,37 @@ CKEDITOR.lang['uk'] = {
 	"scayt": {
 		"btn_about": "Про SCAYT",
 		"btn_dictionaries": "Словники",
-		"btn_disable": "Деактивувати SCAYT",
-		"btn_enable": "Активувати SCAYT",
+		"btn_disable": "Відключити SCAYT",
+		"btn_enable": "Включити SCAYT",
 		"btn_langs": "Мови",
-		"btn_options": "Параметри",
-		"text_title": "Spell Check As You Type"
+		"btn_options": "Налаштування",
+		"text_title": "Перевірка орфографії по мірі вводу (SCAYT)"
 	},
 	"selectall": {
-		"toolbar": "Обрати Все"
+		"toolbar": "Виділити все"
 	},
 	"showblocks": {
 		"toolbar": "Показати Блоки"
 	},
 	"smiley": {
-		"options": "Параметри Смайлів",
+		"options": "Вибір Смайла",
 		"title": "Вставити Смайл",
 		"toolbar": "Смайли"
 	},
 	"sourcearea": {
-		"toolbar": "Джерело"
+		"toolbar": "Код"
 	},
 	"specialchar": {
-		"options": "Опції",
+		"options": "Вибір спеціального символу",
 		"title": "Оберіть спеціальний символ",
-		"toolbar": "Спеціальний символ"
+		"toolbar": "Вставити спеціальний символ"
 	},
 	"stylescombo": {
-		"label": "Стиль",
+		"label": "Стилі",
 		"panelTitle": "Стилі форматування",
-		"panelTitle1": "Блочні стилі",
-		"panelTitle2": "Рядкові стилі",
-		"panelTitle3": "Об'єктні стилі"
+		"panelTitle1": "Стилі блока",
+		"panelTitle2": "Стилі елемента",
+		"panelTitle3": "Стилі об'єкта"
 	},
 	"table": {
 		"border": "Розмір рамки",
@@ -551,15 +551,15 @@ CKEDITOR.lang['uk'] = {
 			"insertAfter": "Вставити комірку після",
 			"deleteCell": "Видалити комірки",
 			"merge": "Об'єднати комірки",
-			"mergeRight": "Об'єднати справа",
-			"mergeDown": "Об'єднати донизу",
+			"mergeRight": "Об'єднати з правою",
+			"mergeDown": "Об'єднати з нижньою",
 			"splitHorizontal": "Розділити комірку по горизонталі",
 			"splitVertical": "Розділити комірку по вертикалі",
 			"title": "Властивості комірки",
 			"cellType": "Тип комірки",
 			"rowSpan": "Об'єднання рядків",
-			"colSpan": "Об'єднання стовпців",
-			"wordWrap": "Автоперенесення тексту",
+			"colSpan": "Об'єднання стовбців",
+			"wordWrap": "Перенос по словам",
 			"hAlign": "Гориз. вирівнювання",
 			"vAlign": "Верт. вирівнювання",
 			"alignBaseline": "По базовій лінії",
@@ -575,10 +575,10 @@ CKEDITOR.lang['uk'] = {
 			"invalidColSpan": "Кількість об'єднуваних стовбців повинна бути цілим числом.",
 			"chooseColor": "Обрати"
 		},
-		"cellPad": "Внутр. відступ",
-		"cellSpace": "Проміжок",
+		"cellPad": "Внутрішній відступ",
+		"cellSpace": "Зовнішній відступ",
 		"column": {
-			"menu": "Стовбці",
+			"menu": "Стовбець",
 			"insertBefore": "Вставити стовбець перед",
 			"insertAfter": "Вставити стовбець після",
 			"deleteColumn": "Видалити стовбці"
@@ -586,13 +586,13 @@ CKEDITOR.lang['uk'] = {
 		"columns": "Стовбці",
 		"deleteTable": "Видалити таблицю",
 		"headers": "Заголовки стовбців/рядків",
-		"headersBoth": "Стовбці і рядки",
-		"headersColumn": "Стовбці",
+		"headersBoth": "Зверху і зліва",
+		"headersColumn": "Ліва колонка",
 		"headersNone": "Без заголовків",
-		"headersRow": "Рядки",
+		"headersRow": "Верхній рядок",
 		"invalidBorder": "Розмір рамки повинен бути цілим числом.",
-		"invalidCellPadding": "Внутр. відступ комірки повинен бути цілим числом.",
-		"invalidCellSpacing": "Проміжок між комірками повинен бути цілим числом.",
+		"invalidCellPadding": "Внутр. відступ комірок повинен бути цілим числом.",
+		"invalidCellSpacing": "Зовнішній відступ комірками повинен бути цілим числом.",
 		"invalidCols": "Кількість стовбців повинна бути більшою 0.",
 		"invalidHeight": "Висота таблиці повинна бути цілим числом.",
 		"invalidRows": "Кількість рядків повинна бути більшою 0.",
@@ -605,7 +605,7 @@ CKEDITOR.lang['uk'] = {
 			"deleteRow": "Видалити рядки"
 		},
 		"rows": "Рядки",
-		"summary": "Детальний опис заголовку таблиці",
+		"summary": "Підсумок",
 		"title": "Властивості таблиці",
 		"toolbar": "Таблиця",
 		"widthPc": "відсотків",
@@ -613,16 +613,16 @@ CKEDITOR.lang['uk'] = {
 		"widthUnit": "Одиниці вимір."
 	},
 	"templates": {
-		"button": "Templates",
-		"emptyListMsg": "(No templates defined)",
-		"insertOption": "Replace actual contents",
-		"options": "Template Options",
-		"selectPromptMsg": "Please select the template to open in the editor",
-		"title": "Content Templates"
+		"button": "Шаблони",
+		"emptyListMsg": "(Не визначено жодного шаблону)",
+		"insertOption": "Замінити поточний контент",
+		"options": "Властивості шаблону",
+		"selectPromptMsg": "Оберіть шаблон, який необхідно відкрити в редакторі",
+		"title": "Шаблони контенту"
 	},
 	"toolbar": {
-		"toolbarCollapse": "Згорнути панель",
-		"toolbarExpand": "Розширити панель",
+		"toolbarCollapse": "Згорнути панель інструментів",
+		"toolbarExpand": "Розвернути панель інструментів",
 		"toolbarGroups": {
 			"document": "Документ",
 			"clipboard": "Буфер обміну/Відмінити",
@@ -636,20 +636,20 @@ CKEDITOR.lang['uk'] = {
 			"colors": "Кольори",
 			"tools": "Інструменти"
 		},
-		"toolbars": "Панель редактора"
+		"toolbars": "Панель інструментів редактора"
 	},
 	"undo": {
 		"redo": "Повторити",
-		"undo": "Повернути"
+		"undo": "Відмінити"
 	},
 	"wsc": {
 		"btnIgnore": "Пропустити",
 		"btnIgnoreAll": "Пропустити все",
 		"btnReplace": "Замінити",
 		"btnReplaceAll": "Замінити все",
-		"btnUndo": "Назад",
+		"btnUndo": "Відмінити",
 		"changeTo": "Замінити на",
-		"errorLoading": "Помилка завантаження : %s.",
+		"errorLoading": "Помилка при підключенню до сервера перевірки орфографії : %s.",
 		"ieSpellDownload": "Модуль перевірки орфографії не встановлено. Бажаєте завантажити його зараз?",
 		"manyChanges": "Перевірку орфографії завершено: 1% слів(ова) змінено",
 		"noChanges": "Перевірку орфографії завершено: жодне слово не змінено",
