@@ -475,8 +475,8 @@ CKEDITOR.lang['uk'] = {
 		"title": "Вставити параграф"
 	},
 	"maximize": {
-		"maximize": "Розвернути",
-		"minimize": "Звернути"
+		"maximize": "Розгорнути",
+		"minimize": "Згорнути"
 	},
 	"newpage": {
 		"toolbar": "Нова сторінка"
